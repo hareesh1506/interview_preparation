@@ -1,0 +1,45 @@
+
+1. What is Python?
+Python is a high-level, interpreted programming language known for its readability and simplicity. It emphasizes code readability and allows developers to express concepts in fewer lines of code compared to other languages.
+
+2. How do you comment out multiple lines in Python?
+You can use triple quotes (''' or """) to comment out multiple lines of code. Another way is to use the # symbol at the beginning of each line you want to comment.
+
+3. What are Python decorators?
+Decorators are a powerful feature in Python that allow you to modify the behavior of functions or methods without changing their source code. They are often used for adding functionality to existing functions or for code reuse.
+
+4. Explain the difference between a tuple and a list in Python.
+Tuples and lists are both used to store collections of items, but the main difference is that tuples are immutable (cannot be changed after creation) while lists are mutable (can be modified after creation).
+
+5. What is PEP 8?
+PEP 8 is the Python Enhancement Proposal that outlines the style guide for writing clean, readable code in Python. It covers naming conventions, indentation, spacing, and other aspects of coding style.
+
+6. How do you handle exceptions in Python?
+You can use try, except, else, and finally blocks to handle exceptions in Python. The try block contains the code that might raise an exception, and the except block handles the exception by specifying the type of exception to catch.
+
+7. Explain the Global Interpreter Lock (GIL).
+The Global Interpreter Lock (GIL) is a mutex used in CPython (Python's standard implementation) to ensure that only one thread executes Python bytecode at a time. This means that even on multi-core systems, Python threads can't fully utilize multiple cores for CPU-bound tasks.
+
+8. What is list comprehension?
+List comprehension is a concise way to create lists in Python. It provides a compact syntax for generating a new list by applying an expression to each item in an iterable.
+
+9. How do you open and close files in Python?
+You can use the open() function to open files for reading, writing, or appending. After you're done working with a file, it's important to close it using the close() method to free up system resources.
+
+10. Explain the difference between deep copy and shallow copy.
+A deep copy creates a new object that is a copy of the original object as well as copies of all objects referenced by it. A shallow copy creates a new object that is a copy of the original object, but it doesn't create copies of the objects referenced by it – it simply references the same objects as the original.
+
+11. What is the difference between __str__ and __repr__?
+__str__ is used to define the "informal" or user-friendly string representation of an object. __repr__ is used to define the "formal" or developer-friendly string representation of an object, which should ideally be unambiguous and should allow recreating the object using the eval function.
+
+12. How do you handle Python dependencies?
+You can use tools like pip (Python's package manager) to install, upgrade, and manage third-party libraries and packages that your Python project depends on. You can list project dependencies in a requirements.txt file.
+
+13. What is the difference between __init__ and __new__ methods in Python?
+__new__ is a method that creates and returns a new instance of a class. __init__ is a method that initializes the attributes of an already created instance.
+
+14. What are virtual environments in Python?
+Virtual environments are isolated environments that allow you to manage and install Python packages separately for different projects. They help avoid conflicts between packages and dependencies.
+
+15. Explain the use of if __name__ == "__main__":.
+This construct is used to ensure that the code block within it is executed only if the script is run directly, not when it's imported as a module. It's often used to include test code or standalone scripts within a module.
